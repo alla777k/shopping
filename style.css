@@ -398,16 +398,16 @@ input {
   border: none;
 }
 .remove {
-  background-image: url(./images/remove_20dp_FFFFFF_FILL0_wght400_GRAD0_opsz20.svg);
+  background-image: url(./images/remove.svg);
 }
 .add {
-  background-image: url(./images/add_20dp_FFFFFF_FILL0_wght400_GRAD0_opsz20.svg);
+  background-image: url(./images/add.svg);
 }
 .delete {
   height: 28px;
   width: 28px;
   background-color: white;
-  background-image: url(./images/delete_20dp_634FA2_FILL0_wght400_GRAD0_opsz20.svg);
+  background-image: url(./images/delete.svg);
   border: none;
 }
 .order,
