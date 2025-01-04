@@ -476,8 +476,8 @@ input {
 }
 
 @media all and (max-width: 575.98px) {
-  .title-prod p, .price-prod p {
-    font-size: 12px;
+  .title-prod p {
+    font-size: 13px;
   }
   .caption-title h6 {
     display: none;
