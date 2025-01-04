@@ -476,7 +476,7 @@ input {
 }
 
 @media all and (max-width: 575.98px) {
-  .title-prod p, .price-prod p, .subtotal-wrapper p {
+  .title-prod p, .price-prod p {
     font-size: 12px;
   }
   .caption-title h6 {
