@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopping cart</title>
+    <link rel="stylesheet" href="./bs-css/bootstrap.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script-cart.js" defer></script>
+    <!-- <script src="./script.js" defer></script> -->
+  </head>
+  <body>
+    <div class="container container-cart">
+      <div class="wrapper-caption">
+        <div class="row caption d-flex">
+
+          <div class="cart-order">
+            <div class="text-center">
+              <h6>ВАШЕ ЗАМОВЛЕННЯ</h6>
+            </div>
+          </div>
+
+          <div class="caption-title col-2 col-sm-3 col-md-5 col-lg-5">
+            <h6 class="text-center">Товар</h6>
+          </div>
+          <div class="caption-title col-3 col-sm-3 col-md-2 col-lg-2">
+            <h6 class="text-center">Ціна</h6>
+          </div>
+          <div class="caption-title col-3 col-sm-3 col-md-2 col-lg-2">
+            <h6 class="text-center">Кількість</h6>
+          </div>
+          <div class="caption-title col-4 col-sm-3 col-lg-3">
+            <h6 class="text-center">Всього до сплати</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="row cart-empty">
+        <div class="empty-title text-center">
+          <h5>ВАШ КОШИК</h5>
+        </div>
+        <div class="text-center empty-text col-lg-12">
+          <h5>Ваш кошик порожній.</h5>
+          <p>
+            Натисніть <a href="./index.html">тут</a>, щоб продовжити покупки.
+          </p>
+        </div>
+      </div>
+
+      <div class="cart-wrapper">
+
+        <!-- <div class="row cart-item d-flex">
+          <div class="image-prod col-3 col-sm-2 col-md-2 col-lg-2">
+            <img class="image" src="./images/balance.jpg" alt="" />
+          </div>
+
+          <div class="title-prod col-7 col-sm-7 col-md-3 col-lg-3">
+            <h6><a class="title" href="#">Балансувальна подушка масажна</a></h6>
+            <p class="size">Розмір: 320х50 мм</p>
+            <p class="color">Колір: синій</p>
+          </div>
+
+          <div class="price-prod col col-sm-3 col-md-2 col-lg-2">
+            <p class="text-center"><strong class="price">399</strong> грн</p>
+          </div>
+
+          <div class="quantity-prod text-center col-5 col-sm-3 col-md-2 col-lg-2">
+            <div class="text-center counter-wrapper">
+              <button class="remove" type="button" data-action="minus"></button>
+              <input class="quantity" type="text" value="1" data-counter />
+              <button class="add" type="button" data-action="plus"></button>
+            </div>
+          </div>
+
+          <div class="col col-sm-3 col-md-2 col-lg-2">
+            <div class="subtotal-wrapper">
+              <p class="text-center">
+                <strong class="subtotal">399</strong> грн
+              </p>
+            </div>
+          </div>
+          <div class="delete-wrapper text-center col-2 col-sm-3 col-md-1 col-lg-1">
+            <button class="delete" type="button"></button>
+          </div>
+        </div> -->
+
+      </div>
+
+      <div class="wrapper-totals">
+        <div class="row totals">
+          <div class="buttons text-center m-auto col-12 col-md-5 col-lg-5">
+            <a href="./index.html" class="col-12 col-sm">
+              <button type="button" class="back-shop">
+                ПРОДОВЖИТИ ПОКУПКИ
+              </button>
+            </a>
+            <div class="col-12 col-sm">
+              <button type="button" class="order">
+                ОФОРМИТИ ЗАМОВЛЕННЯ
+              </button>
+            </div>
+          </div>
+          <div class="order-text col">
+            <h5 class="text-center">До сплати</h5>
+          </div>
+  
+          <div class="order-price col">
+            <h5 class="text-center"><span class="total-sum"></span> грн</h5>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
