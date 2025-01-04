@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Ролик для преса подвійний",
+      "price": 299,
+      "color": "червоний",
+      "size": "Розмір: 250 мм",
+      "image": "wheel.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "Скакалка",
+      "price": 94,
+      "color": "зелений",
+      "size": "Розмір: 2750х5 мм",
+      "image": "jump_rope.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "Балансувальна подушка масажна",
+      "price": 399,
+      "color": "синій",
+      "size": "Розмір: 320х50 мм",
+      "image": "balance.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "Степ-платформа",
+      "price": 1399,
+      "color": "чорний-сірий",
+      "size": "Розмір: 780х290х200 мм",
+      "image": "step.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "name": "Килимок для йоги та фітнесу",
+      "price": 575,
+      "color": "фіолетово-помаранчевий",
+      "size": "Розмір: 1830х610х6 мм",
+      "image": "mat.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "name": "Fitball для фітнесу",
+      "price": 1323,
+      "color": "сірий",
+      "size": "Розмір: 650 мм",
+      "image": "fitball.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "name": "Обтяжувачі-манжети для рук і ніг",
+      "price": 459,
+      "color": "чорний-помаранчевий",
+      "size": "Вага: 2 х 0,5 кг",
+      "image": "cuff_weight.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "name": "Гантелі",
+      "price": 724,
+      "color": "зелений",
+      "size": "Вага: 1х2,5 кг",
+      "image": "dumbbell.jpg",
+      "quantity": 1
+    }
+  ]
