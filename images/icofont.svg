@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+<font id="icofont" horiz-adv-x="1000" >
+<font-face font-family="IcoFont" font-weight="400" font-style="Regular" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="facebook" horiz-adv-x="1000" unicode="&#xed37;" d="M703 504h-138v91c0 34 22 42 38 42h98v150l-135 1c-149 0-183-112-183-184v-100h-86v-154h86v-437h182v437h122l16 154z" />
+</font>
+</defs>
+</svg>
